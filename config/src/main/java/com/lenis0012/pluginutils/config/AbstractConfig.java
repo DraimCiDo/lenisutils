@@ -110,7 +110,7 @@ public class AbstractConfig {
     public void save() {
         // Set values
         saveSection(config, this);
-        config.getOfflinePlayer()
+        config.getOfflinePlayer();
 
         config.save();
     }
